@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+        justify-content:center;
+        align-items: center;
+        background:orange;
+        max-height: 0ch;
+        
+        
+    } 
+    
+a{
+    text-decoration: none; 
+    color: #fff;  
+}
+a:hover{
+    color: red;
+}
+.logo{
+    margin-top :0px;
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background-color:black;
+    font-size: 1.2vw;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    position: fixed;
+}
+
+.img{
+   
+    max-width: 100%;
+}
+#log{
+    margin-right: 200px;
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+#Home{
+    max-width: 100%;
+    width: 70;
+}  
+.wrapper img{
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-top:20%;
+}
+.wrappe img{
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-top:-10px;
+}
+
+.wrapper{
+    margin: 10px auto;
+    width: 70;
+
+
+
+}
+.text-box{
+    color:#fff;
+
+}
+.text-box p{
+    font-size: 16px;
+}
+
+.box
+{
+    position: absolute;
+    top: 40%;
+    left:70%;
+    width: 100%;
+    transform: translate(-70%,-75%);
+    padding:20px ;
+    box-sizing:content-box;
+    background:#fff;
+    border: radius 4px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    
+
+}   
+.box.imga{
+  width: 3050px;  
+}
+.box.imga img{
+    max-width: 100%;
+}
+
+p.pa {
+    text-indent: 5%;
+    line-height: 30px;
+    white-space: 30px;
+    margin-left: 8%;
+    margin-right: 10%;
+    color: black;
+    font-size: large;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color:black;
+}
+.sec{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50% auto;
+    grid-auto-rows: 200px;
+    grid-template-areas: 
+    "n l";
+
+}
+.list{
+    grid-area: l;
+    color: #fff;
+}
+ul.list{
+    max-width: 100%;
+    color: black;
+}
+.foot{
+    width: 20px;
+} 
+h1{
+    text-align: center;
+    color: #fff;
+}
+.icon{
+    text-align: center;
+    margin-bottom: 70px;
+}
+footer{
+    background: black;
+    padding: 0;
+}
+#email{
+    color: white;
+}

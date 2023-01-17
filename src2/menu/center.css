@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+        justify-content:center;
+        align-items: center;
+        min-height:100vh; 
+        background: yellow;
+        max-height: 0;
+
+    }   
+
+a{
+    text-decoration: none; 
+    color: #fff;  
+}
+.logo{
+    margin-top :0px;
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: black;
+    color: #fff;
+    font-size: 1.3vw;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    position: fixed;
+
+}
+img{
+   
+    max-width: 100%;
+}
+#log{
+    margin-right: 200px;
+    max-width: 100%;
+}
+#Home{
+    max-width: 100%;
+    width: 90px;
+}
+p.pa {
+    text-indent: 5%;
+    line-height: 30px;
+    white-space: 30px;
+    margin-left: 8%;
+    margin-right: 10%;
+    color: black;
+}
+.wrapper img{
+    max-width: 420px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.wrappe img{
+    max-width: 420px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-top:0px;
+}
+h2{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.foot{
+    width: 20px;
+
+ 
+ }
+.icon{
+    text-align:center;
+    margin-bottom: 70px;
+    margin-right: 200x;
+    color:white;
+}
+footer{
+    background: black;
+    padding: 0;
+}
+#email{
+    color: white;
+}

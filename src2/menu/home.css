@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+        justify-content:center;
+        align-items: center;
+        background:pink;
+        max-height:0;
+        color: black;
+        max-width: 100%;
+        font-size: large;
+    }   
+
+a{
+    text-decoration: none;   
+}
+.logo{
+    margin-top :0px;
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background-color:black;
+    font-size: 1.2vw;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    position: fixed;
+}
+.hom{
+    margin-top: 7%;
+    padding: 1%;
+    background: #fff;
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+
+}
+p.para{
+    max-width: 100%;
+}
+p{
+    max-width: 100%;
+}
+img{
+   
+    max-width: 100%;
+}
+#log{
+    margin-right: 200px;
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+#Home{
+    max-width: 100%;
+    width: 70;
+}
+p.pa {
+    text-indent: 5%;
+    line-height: 30px;
+    max-width: 100%;
+    white-space: 30px;
+    margin-left: 8%;
+    margin-right: 10%;
+    color:black;
+    max-width: 100%;
+    margin-top: 1%;
+    font-size: large;
+
+}
+p.audio{
+    margin-left: 0px;
+    max-width: 100%;
+    padding: 2%;
+    z-index: -100;
+    object-fit: cover;
+    width: 20%;
+    color: black;
+}
+.video-container{
+    width: 40%;
+    height: 1px;
+    object-fit: cover;
+    z-index: -100;
+    margin-bottom: 300px;
+    max-width: 100%;
+    padding: 2%;
+    
+}
+p.para{
+    float: right;
+    white-space:30px ;
+    align-items:center;
+    margin: -350px 110px 10px 200px;
+    text-indent: 5%;
+    line-height: 20px;
+    white-space: 30px;
+    margin-left: 40%;
+    max-width: 100%;
+    margin-top:-300px;
+    
+    
+}
+a{
+    color: #fff;
+}
+a [href^="https://www.ethiovisit.com/directory/black-lion-hospital/1263"]
+
+{
+  font-family: sans-serif;
+  color:white;
+  font-size:11px;
+}
+a:hover{
+    color: red;
+}
+.foot{
+   width: 20px;
+
+}
+img.foot{
+    color: #fff;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+.icon{
+    text-align: center;
+    margin-bottom: 70px;
+}
+footer{
+    background:black;
+
+}
+#email{
+    color:#fff
+}
